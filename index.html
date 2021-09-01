@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://unpkg.com/flickity@2/dist/flickity.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <title>TravelMate</title>
+    <style>
+      
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+  <div class="container-fluid">
+    <a class="navbar-brand px-md-4" href="#"><span class="h1"> 	
+      &#129517;</span>Travel<span class="fw-bold">Mate</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="#">Destination</a>
+        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Price</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<button class="fixed-bottom btn btn-success rounded home-button"><a class="h1 text-light" href="#">↑</a></button>
+
+<!-- carousel section -->
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="https://picsum.photos/seed/sjd8/1280/540" class="d-block w-100" alt="..." class="fit-cover">
+      <div class="carousel-caption text-start">
+        <h1 class="h1 text-light">First slide label</h1>
+        <p class="text-light">This is first slide</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="https://picsum.photos/seed/s0f9v/1280/540" class="d-block w-100" alt="..." class="fit-cover">
+      <div class="carousel-caption text-start">
+        <h1 class="h1 text-light">Second slide label</h1>
+        <p class="text-light">This is second slide</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://picsum.photos/seed/smsn9/1280/540" class="d-block w-100" alt="..." class="fit-cover">
+      <div class="carousel-caption text-start">
+        <h1 class="h1 text-light">Third slide label</h1>
+        <p class="text-light">This is third slide</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- search section -->
+<section class="travel-search bg-dark">
+  <div class="container py-5 text-center">
+    <div class="row align-items-center g-3 g-md-2">
+      <div class="col-lg-3 p-2"><h4 class="text-light">Where you want to go?</h4></div>
+      <div class="col-lg-9">
+      <div class="row g-3 g-md-2">
+      <div class="col-12 col-md-3"><input type="text" placeholder="Where to go?" class="p-2 form-control rounded"></div>
+      <div class="col-12 col-md-3"><input type="date" class="p-2 rounded form-control" id="start" name="trip-start" value="2021-07-23" min="2021-07-23" max="2022-07-23"></div>
+      <div class="col-12 col-md-3"><input type="text" class="p-2 rounded form-control" placeholder="Travel Type"></div>
+      <div class="col-12 col-md-3"><button type="submit" class="btn btn-danger px-4">Search</button></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- popular destination section-->
+<section class="pb-4">
+  <div class="container py-4">
+    <div class="section-title text-center py-4">
+    <div class="h1 pt-4">Popular Destination</div>
+    <div class="pt-3 pb-4">Suffered alteration in some form, by injected humour or good day<br>randomised booth anim 8-bit hella wolf moon beard words</div>
+    </div>
+    
+    <div class="row g-4 g-md-4 g-lg-4 align-items-center py-5">
+      <div class="col-12 col-md-6 col-lg-4 center"><a href="#"><img src="https://picsum.photos/seed/vdne9/480/270" class="rounded mx-auto img-fluid shadow"></a></div>
+      <div class="col-12 col-md-6 col-lg-4"><img src="https://picsum.photos/seed/wnc9/480/270" class="rounded mx-auto img-fluid shadow"></div>
+      <div class="col-12 col-md-6 col-lg-4"><img src="https://picsum.photos/seed/wnwk4/480/270" class="rounded mx-auto img-fluid shadow"></div>
+      <div class="col-12 col-md-6 col-lg-4"><img src="https://picsum.photos/seed/nwfs0/480/270" class="rounded mx-auto img-fluid shadow"></div>
+      <div class="col-12 col-md-6 col-lg-4"><img src="https://picsum.photos/seed/qnsc0/480/270" class="rounded mx-auto img-fluid shadow"></div>
+      <div class="col-12 col-md-6 col-lg-4"><img src="https://picsum.photos/seed/2rnss0/480/270" class="rounded mx-auto img-fluid shadow"></div>
+    </div>
+  </div>
+</section>
+
+<!--Newsletter Section-->
+<section class="newsletter bg-primary">
+  <div class="container py-5">
+    <div class="row g-4 align-items-center">
+      <div class="col-12 col-md-6">
+        <div class="h4 text-light">Subscribe to our newsletter</div>
+        <p>Subscribe newsletter to get offers and about new places to discover.</p>
+      </div>
+      <div class="col-12 col-md-6">
+        <form class="input-group">
+          <input type="text" placeholder="Your Email" class="form-control p-2">
+          <button type="submit" class="btn btn-danger px-4">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Popular place section-->
+<section class="bg-light pb-5">
+  <div class="container py-5">
+    <div class="h1 pt-5 text-center">Popular Places</div>
+    <p class="pt-2 pb-4 text-center">Suffered alteration in some form, by injected humour or good day<br>randomised booth anim 8-bit hella wolf moon beard words.</p>
+    
+    <!--popular place cards-->
+    <div class="row g-4 g-md-4 py-5">
+      
+      <div class="col-12 col-md-4">
+        <a href="#">
+        <div class="card place-card border-0 shadow">
+         <img src="https://source.unsplash.com/U_i6h9Y50wQ/480x270" class="card-img-top" alt="...">
+         <div class="card-body text-dark">
+           <div class="h5 card-title"><a href="#">Bali</a></div>
+           <p class="card-text">Indonesia</p><div class="row">
+             <div class="col-8">
+             <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i> (20 Reviews)</div>
+           <div class="col-4">
+             <i class="bi bi-clock"></i> 5 days
+           </div>
+             </div>
+         </div>
+       </div>
+       </a>
+      </div>
+      
+      <div class="col-12 col-md-4">
+        <a href="#">
+        <div class="card place-card border-0 shadow">
+         <img src="https://source.unsplash.com/prSogOoFmkw/480x270" class="card-img-top" alt="...">
+         <div class="card-body text-dark">
+           <div class="h5 card-title">Hawaii</div>
+           <p class="card-text">USA</p><div class="row">
+             <div class="col-8">
+             <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i> (20 Reviews)</div>
+           <div class="col-4">
+             <i class="bi bi-clock"></i> 5 days
+           </div>
+             </div>
+         </div>
+       </div>
+       </a>
+      </div>
+      
+      <div class="col-12 col-md-4">
+        <a href="#">
+        <div class="card place-card border-0 shadow">
+         <img src="https://source.unsplash.com/nnzkZNYWHaU/480x270" class="card-img-top" alt="...">
+         <div class="card-body text-dark">
+           <div class="h5 card-title">Paris</div>
+           <p class="card-text">France</p><div class="row">
+             <div class="col-8">
+             <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i> (20 Reviews)</div>
+           <div class="col-4">
+             <i class="bi bi-clock"></i> 5 days
+           </div>
+             </div>
+         </div>
+       </div>
+       </a>
+      </div>
+      
+      <div class="col-12 col-md-4">
+        <a href="#">
+        <div class="card place-card border-0 shadow">
+         <img src="https://source.unsplash.com/TLYzsNu8md0/480x270" class="card-img-top" alt="...">
+         <div class="card-body text-dark">
+           <div class="h5 card-title">Rome</div>
+           <p class="card-text">Italy</p><div class="row">
+             <div class="col-8">
+             <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i> (20 Reviews)</div>
+           <div class="col-4">
+             <i class="bi bi-clock"></i> 5 days
+           </div>
+             </div>
+         </div>
+       </div>
+       </a>
+      </div>
+      
+      <div class="col-12 col-md-4">
+        <a href="#">
+        <div class="card place-card border-0 shadow">
+         <img src="https://source.unsplash.com/7ryPpZK1qV8/480x270" class="card-img-top" alt="...">
+         <div class="card-body text-dark">
+           <div class="h5 card-title">Singapore</div>
+           <p class="card-text">Singapore</p>
+           <div class="row">
+             <div class="col-8">
+             <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i> (20 Reviews)</div>
+           <div class="col-4">
+             <i class="bi bi-clock"></i> 5 days
+           </div>
+             </div>
+           
+         </div>
+       </div>
+       </a>
+      </div>
+      
+      <div class="col-12 col-md-4">
+        <a href="#">
+        <div class="card place-card border-0 shadow">
+         <img src="https://source.unsplash.com/7Zb7kUyQg1E/480x270" class="card-img-top" alt="...">
+         <div class="card-body text-dark">
+           <div class="h5 card-title">Sydney</div>
+           <p class="card-text">Australia</p>
+             <div class="row">
+             <div class="col-8">
+             <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i> (20 Reviews)</div>
+           <div class="col-4">
+             <i class="bi bi-clock"></i> 5 days
+           </div>
+             </div>
+         </div>
+       </div>
+       </a>
+      </div>
+      
+    </div>
+    
+    <div class="text-center">
+      <button class="btn btn-danger px-4 py-2 mx-auto">More Places</button></div>
+    
+  </div>
+</section>
+
+<!--Video Section-->
+<img class="img-fluid w-100 mb-5" src="https://picsum.photos/seed/kjxkcs/1280/500">
+
+<!--Feature Section-->
+<section class="py-5">
+  <div class="container text-center pb-5">
+    <div class="row g-4">
+      
+      <div class="col-12 col-md-4">
+        <h1>🚆</h1>
+        <h3 class="pt-3">Comfortable Journey</h3>
+        <p>A wonderful serenity has taken to the<br>possession of my entire soul.</p>  
+      </div>
+      
+      <div class="col-12 col-md-4">
+        <h1>🏨</h1>
+        <h3 class="pt-3">Luxury Hotel</h3>
+        <p>A wonderful serenity has taken to the<br>possession of my entire soul.</p>  
+      </div>
+      
+      <div class="col-12 col-md-4">
+        <h1>🌎</h1>
+        <h3 class="pt-3">Travel Guide</h3>
+        <p>A wonderful serenity has taken to the<br>possession of my entire soul.</p>  
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<!--section quotes-->
+<section class="bg-light py-5">
+  <div class="py-5">
+    <div class="carousel text-center" data-flickity='{ "prevNextButtons": false}'>
+      <div class="carousel-cell px-5 bg-light">
+        <img class="rounded-circle mb-4" src="https://randomuser.me/api/portraits/men/40.jpg">
+        <h5>"Integer ac bibendum arcu, vel eleifend nibh. In porta lacus aliquet urna finibus mollis. Mauris et risus sit amet dolor iaculis scelerisque. Praesent quis lectus purus.""</h5>
+        <p>- John Doe</p>
+      </div>
+      <div class="carousel-cell bg-light px-5"><img class="rounded-circle mb-4" src="https://randomuser.me/api/portraits/women/89.jpg">
+        <h5>"Proin rutrum velit justo, ut tincidunt nisi porta eu. Mauris condimentum orci id dolor commodo, et tristique mi ultrices. Vestibulum pretium enim ligula."</h5>
+        <p>- John Doe</p></div>
+      <div class="carousel-cell bg-light px-5"><img class="rounded-circle mb-4" src="https://randomuser.me/api/portraits/men/80.jpg">
+        <h5>"Mauris ullamcorper lorem eu ex cursus dignissim. In accumsan interdum eros. Phasellus quis semper ligula, sit amet accumsan dolor. "</h5>
+        <p>- John Doe</p></div>
+      <div class="carousel-cell bg-light px-5"><img class="rounded-circle mb-4" src="https://randomuser.me/api/portraits/men/84.jpg">
+        <h5>"Nam ut rutrum ligula. Mauris ac dui vitae enim blandit ultricies. Sed facilisis scelerisque justo eu interdum. Ut congue erat purus, in consequat dolor volutpat nec."</h5>
+        <p>- John Doe</p></div>
+      <div class="carousel-cell bg-light px-5"><img class="rounded-circle mb-4" src="https://randomuser.me/api/portraits/women/71.jpg">
+        <h5>"Nunc iaculis nunc quis sem faucibus, vel placerat felis eleifend. Cras mattis est a consectetur bibendum. Fusce felis dui, porttitor vel aliquam vel,"</h5>
+        <p>- John Doe</p></div>
+    </div>
+  </div>
+</section>
+
+<!--section blog-->
+<section class="py-5">
+  <div class="container py-5">
+    <div class="h1 text-center pb-5">Recent Trips</div>
+    <div class="row g-4 g-md-5">
+      
+      <div class="col-12 col-md-4">
+         <div class="card border-0">
+         <img src="https://picsum.photos/seed/nsoe9/480/270" class="card-img-top" alt="...">
+         <div class="card-body p-0">
+           <p class="card-text pt-2 m-0">Oct 12, 2019</p>
+           <div class="h5 card-title g-0"><a href="#" class="text-dark">Journeys Are Best Measured In New Friends</a></div>
+         </div>
+        </div>
+      </div>
+        
+      <div class="col-12 col-md-4">
+        <div class="card border-0">
+         <img src="https://picsum.photos/seed/vdne9/480/270" class="card-img-top" alt="...">
+         <div class="card-body p-0">
+           <p class="card-text pt-2 m-0">Oct 12, 2019</p>
+           <div class="h5 g-0 card-title"><a href="#" class="text-dark">Journeys Are Best Measured In New Friends</a></div>
+         </div>
+        </div>
+      </div>
+      
+      <div class="col-12 col-md-4">
+        <div class="card border-0">
+         <img src="https://picsum.photos/seed/3ns9cs/480/270" class="card-img-top" alt="...">
+         <div class="card-body p-0">
+           <p class="card-text pt-2 m-0">Oct 12, 2019</p>
+           <div class="h5 card-title"><a href="#" class="text-dark">Journeys Are Best Measured In New Friends</a></div>
+         </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--footer section-->
+<section class="py-5 bg-dark">
+  <div class="container py-5">
+    <div class="row text-light text-center">
+      <div class="col-6 col-md-3">
+        <h4>🧭 TravelMate</h4>
+        <p>5th flora, 700/D kings road, green<br>lane New York-1782<br>+10 367 826 2567<br><a href="#">contact@carpenter.com</p></a>
+      </div>
+      <div class="col-6 col-md-3">
+         <h4>Company</h4>
+        <p>Pricing<br>About<br>Contact<br>Gallery</p>
+      </div>
+      <div class="col-6 col-md-3">
+        <h4>Popular Destination</h4>
+        <p>Indonesia<br>India<br>Italy<br>France<br>America<br>Swiss<br>Canada<br>England</p>
+      </div>
+      <div class="col-6 col-md-3">
+        <h4>Instagram</h4>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  </body>
