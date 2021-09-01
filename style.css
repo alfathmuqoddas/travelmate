@@ -1,0 +1,21 @@
+.carousel-cell {
+  width: 100%;
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.place-card:hover {
+  transform: translateY(-1rem);
+  transition: ease 0.2s;
+}
+
+.home-button {
+  transform: translate(1rem, -1rem);
+}
+
+.fit-cover{
+  object-fit: cover !important;
+}
