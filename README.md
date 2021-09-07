@@ -2,7 +2,7 @@
 TravelMate, a travel website made with Bootstrap CSS (https://alfathmuqoddas.github.io/travelmate)
 
 ## About This Project
-A simple travel website made with Bootstrap CSS. I made this project to sharpen my skills in replicating the design wireframe, to translate the markup design into working code. 
+A simple travel website made with Bootstrap CSS. I made this project to sharpen my skills in replicating the design wireframe, to translate the design into working code. 
 
 ## Technology Used
 HTML5, Vanilla CSS, [BootstrapCSS](https://getbootstrap.com), [FlicktityJS](https://flickity.metafizzy.co)
